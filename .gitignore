@@ -1,0 +1,4 @@
+# Eclipse Project
+.settings
+.cache-main
+bin/
