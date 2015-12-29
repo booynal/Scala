@@ -11,11 +11,11 @@ object For {
    * Scala的增强for循环
    */
   def loop0() {
-    var strings : Array[String] = new Array[String](3);
-    strings(0) = "one";
+    var strings : Array[String] = new Array[String](3); // 创建一个字符串数组
+    strings(0) = "one"; // 给数组赋值
     strings(1) = "two";
     strings(2) = "three";
-    for (string <- strings) {
+    for (string <- strings) { // 遍历数组
       println(string)
     }
   }
