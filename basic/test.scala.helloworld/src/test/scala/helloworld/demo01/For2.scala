@@ -2,8 +2,9 @@ package test.scala.helloworld.demo01
 
 /**
  * 循环的高级功能
- * 1. 双重循环的写法
- *
+ * 1. 带条件的for循环
+ * 2. 双重for循环的写法
+ * 3. 多重for循环的写法
  */
 object For2 {
 
@@ -21,6 +22,13 @@ object For2 {
     println("带条件的for循环: 在for括号的后部分加上if语句");
     for (i <- 1 to 2 if i % 2 == 0) {
       println("i=" + i)
+    }
+
+    println("等同代码：")
+    for (i <- 1 to 2) {
+      if (i % 2 == 0) {
+        println("i=" + i)
+      }
     }
   }
 
